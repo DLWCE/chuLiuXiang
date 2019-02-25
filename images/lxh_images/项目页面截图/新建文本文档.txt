@@ -1,0 +1,7 @@
+网页01(首页):http://clx.163.com/fab/
+网页03(注册账号):http://zc.reg.163.com/regInitialized
+网页04(充值中心):http://ecard.163.com/script/index
+网页05(客服中心):http://gm.163.com/?from=nietop
+网页06(官方网站):http://clx.163.com/index.html
+网页07(严选大典):https://act.you.163.com/act/pub/35lg3M4T9f.html
+网页08(同城专区):http://clx.163.com/tongren/

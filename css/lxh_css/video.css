@@ -1,0 +1,189 @@
+.video .player {
+    width: 900px;
+    height: 510px;
+    background-color: #07031c;
+    background-size: auto 100%;
+    overflow: hidden;
+    position: relative;
+}
+.video marquee {
+    margin-top: 34px;
+    margin-left: 27px;
+    width: 847px;
+    height:443px;
+    border: 1px solid #fff;
+    position: relative;
+    top:0;
+}
+marquee span {
+    position: absolute;
+}
+/*.video .direction {*/
+    /*margin-top: 34px;*/
+    /*margin-left: 27px;*/
+    /*width: 847px;*/
+    /*height:443px;*/
+    /*border: 1px solid #0000ee;*/
+    /*position: absolute;*/
+    /*top:0;*/
+/*}*/
+.video .player video {
+    margin-top: 34px;
+    margin-left: 27px;
+    background-color: yellow;
+    width:847px;
+    height: 443px;
+    display: block;
+    background:url("../../images/lxh_images/login_on.gif")top center no-repeat;
+}
+.video .controls {
+    width: 100%;
+    height:34px;
+    background-color: #242428;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.video .video_log{
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    background: url("../../images/lxh_images/174423pmze2y3keh3g24k3.png");
+    position: absolute;
+    top:3px;
+    left:10px;
+}
+.video .cczb_log {
+    height: 30px;
+    position: absolute;
+    top:10px;
+    left:45px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.video .switch:hover,
+.video .renew:hover,
+.video .chat:hover,
+.video .sound:hover,
+.video .exted:hover
+{
+    color: #32acfb;
+}
+.video .controls i.renew,
+.video .controls i.sound,
+.video .controls i.exted
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+.video .controls i.switch{
+    font-size: 20px;
+}
+.video .controls i.sound,
+.video .controls i.chat{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.video .switch {
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    top:12px;
+    left: 131px;
+    color: #fff;
+}
+/*重新播放*/
+.video .renew {
+    display: inline-block;
+    position: absolute;
+    top:12px;
+    left: 160px;
+    color: #fff;
+}
+/*弹幕*/
+.video .barrage{
+    display: inline-block;
+    position: absolute;
+    top:6px;
+    right: 162px;
+    color: #fff;
+    background-color: #27ace5;
+    width: 46px;
+    height: 22px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 11px;
+}
+
+/*聊天*/
+.video .chat {
+    display: inline-block;
+    font-size: 55px;
+    position: absolute;
+    top:12px;
+    right: 132px;
+    color: #fff;
+}
+
+/*直播间*/
+.video .live {
+    display: inline-block;
+    position: absolute;
+    padding:0px 5px;
+    top:6px;
+    right: 47px;
+    color: #fff;
+    background-color: #27ace5;
+    width: 70px;
+    height: 22px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 11px;
+}
+/*全屏*/
+.video .exted {
+    display: inline-block;
+    position: absolute;
+    top:12px;
+    right: 16px;
+    color: #fff;
+}
+/*声音*/
+.video .sound {
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    right: 330px;
+    color: #fff;
+}
+/*播放条*/
+.video .progerss {
+    width: 100px;
+    height:2px;
+    position: absolute;
+    background-color: #fff;
+    right: 225px;
+    top:16px;
+    border-radius: 2px;
+    /*overflow: hidden;*/
+}
+.video .cur-progress {
+    width: 35%;
+    height:2px;
+    background: #32acfb;
+    position: relative;
+}
+.video .cur-progress i{
+    width: 8px;
+    height:8px;
+    background-color: #fff;
+    position: absolute;
+    top:-3px;
+    right: -5px;
+    z-index: 1;
+    border-radius: 5px;
+}

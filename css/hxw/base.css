@@ -1,0 +1,89 @@
+body,
+div,
+p,
+span,
+img,
+input,
+i,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+ins,
+del,
+em,
+strong {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 12px/100% "Î¢ÈíÑÅºÚ";
+}
+
+a {
+    color: #172c45;
+    text-decoration: none
+}
+
+a:hover {
+    color: #cd0200;
+}
+
+em {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+i,b{
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+p {
+    word-wrap: break-word
+}
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+}
+.clearfix::after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}

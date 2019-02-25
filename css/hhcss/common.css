@@ -1,0 +1,387 @@
+/* 顶部底部通用样式 */
+
+/* 版心宽度 */
+.width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 快捷栏样式================================= */
+.shortcut {
+    height: 44px;
+    background-color: #333;
+}
+.cuts {
+    float: left;
+}
+.cuts a {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    color: #b2b2b2;
+    margin-right: 20px;
+}
+.cuts a:nth-child(7) {
+    color: aqua;
+}
+
+.search {
+    float: right;
+    position: relative;
+}
+.version {
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.version i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 24px;
+    background: url('.../../images/hh_images/image1/hh154.jpg') no-repeat;
+}
+.version i {
+    background-position: 0 0;
+}
+.version span {
+    height: 44px;
+    line-height: 44px;
+    color: #b2b2b2;
+}
+.search-bar {
+    margin-top: 7px;
+    float: left;
+    position: relative;
+}
+.search-bar input {
+    width: 207px;
+    height: 30px;
+    background-color: #bbb;
+    color: #777;
+    padding-left: 15px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+.ss {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    height: 30px;
+    width: 24px;
+    background: url('.../../images/hh_images/image1/hh154.jpg') center;
+}
+.ss {
+    background-position: -42px 0;
+}
+/* 二维码 */
+.coder {
+    position: absolute;
+    top: 20px;
+    left: -62px;
+    opacity: 0;
+    /* display: none; */
+}
+
+/* 头部栏====================================================== */
+/* 登陆注册 */
+
+.login-register {
+    width: 204px;
+    height: 76px;
+    background-color: #dbd8d7;
+    border-radius: 10px;
+    margin: 60px 0 60px auto;
+    
+}
+.login {
+    float: left;
+    width: 107px;
+    height: 56px;
+    border-right: 1px solid #afc3d0;
+    margin: 10px 0; 
+    text-align: center;
+}
+.login a {
+    display: block;
+    width: 75px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #d91a29;
+    margin: 18px auto;
+    border-radius: 5px;
+}
+.register {
+    float: left;
+    width: 96px;
+    height: 56px;
+    margin: 10px 0; 
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+}
+.register .find, 
+.register .pass {
+    color: #d91a29;
+    display: block;
+    margin: 12px auto;
+}
+.register .pass {
+    font-weight: 700;
+}
+
+/* 导航栏 */
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+}
+.nav ul {
+    float: left;
+    margin-left: 20px;
+    height: 100%;
+}
+.nav ul li {
+    float: left;
+    height: 100%;
+    width: 120px;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.nav ul li:hover {
+    background-color: #d91a29;
+}
+.nav .highlight {
+    background-color: #d91a29;
+}
+.nav .hot-call {
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #fff;
+}
+.hot-call:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* 公告栏 */
+.notice {
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+    padding: 15px 0;
+    background-color: #fff;
+}
+.common-h {
+    float: left;
+    height: 100%;
+}
+
+.game-banner {
+    width: 400px;
+    margin-left: 14px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.game-banner ul li {
+    float: left;
+}
+
+.game-banner .dot {
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate3d(-50%, -50%, 0);
+}
+.dot i {
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: #fff;
+}
+.dot .dot-bar {
+    width: 56px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #f87970;
+}
+.game-notice {
+    margin-left: 14px;
+    width: 408px;
+}
+.game-notice h3 {
+    width: 100%;
+    height: 34px;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f87970; 
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+.game-notice h3:hover {
+    text-decoration: underline;
+}
+.game-notice ul {
+    margin-top: 10px;
+}
+.game-notice li {
+    height: 40px;
+    border-bottom: 1px dashed #ccc;
+    line-height: 40px;
+}
+.game-notice li i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: url('.../../images/hh_images/image1/dot.png');
+}
+.game-notice .type {
+    color: #999;
+    margin: 0 5px 0 2px;
+}
+.game-notice a {
+    font-size: 14px;
+}
+.game-notice .date {
+    float: right;
+    color: #999;
+}
+.game-notice li:hover a {
+    color: #f87970;
+}
+
+.game-download {
+    width: 330px;
+    margin: 0 14px;
+}
+.download {
+    width: 100%;
+    height: 132px;
+}
+.download .qr {
+    float: left;
+}
+.download .cell {
+    float: right;
+}
+.qr span {
+    float: left;
+    width: 14px;
+    writing-mode: vertical-lr;
+    letter-spacing: 7px; 
+    margin-top: 10px;
+    margin-right: 3px;
+}
+.qr img {
+    vertical-align: top;
+    width: 131px;
+    height: 131px;
+    border: 1px solid #ccc;
+}
+.cell {
+    width: 166px;
+    margin-right: 3px;
+}
+.cell img {
+    width: 166px;
+    margin: 7px 0;
+    cursor: pointer;
+}
+
+.deal-with {
+    width: 100%;
+    margin-top: 5px;
+}
+.deal-with a {
+    float: left;
+    width: 106px;
+    height: 51px;
+    background: url(".../../images/hh_images/image1/hh108.jpg");
+    margin: 3px 5px 3px 0;
+    text-align: center;
+    line-height: 51px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.deal-with a:nth-child(3),
+.deal-with a:nth-child(6) {
+    margin-right: 0;
+}
+.deal-with a:hover {
+    color: #d91a29;
+    text-decoration: underline;
+}
+
+/* 底部栏============================================== */
+.footer {
+    height: 174px;
+    background-color: #333;
+    text-align: center;
+    color: #999;
+    overflow: hidden;
+}
+.friend-link {
+    margin: 24px 0 10px 0;
+}
+.friend-link a {
+    color: #999;
+}
+.friend-link i {
+    margin: 0 12px;
+}
+.friend-link .aqua {
+    color: aqua;
+}
+.friend-link a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    line-height: 32px;
+}
+.company {
+    line-height: 32px;
+}
+.company i {
+    margin: 0 10px;
+}
+.company a {
+    position: absolute;
+    margin-top: 8px;
+    height: 20px;
+    background-color: #610000;
+    color: #fff;
+    line-height: 16px;
+}
+.company a:hover {
+    text-decoration: underline;
+}
+.jubao {
+    line-height: 32px;
+}
+
+/* 固定栏====================================== */
+.fix {
+    position: fixed;
+    right: 50%;
+    bottom: 160px;
+    margin-right: -760px;
+    /* right: 6%;
+    bottom: 15%;
+    transform: translate3d(-50%, -50%, 0); */
+    cursor: pointer;
+}
+
+

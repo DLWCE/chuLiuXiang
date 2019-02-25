@@ -1,0 +1,269 @@
+/* 主体内容样式 */
+.main {
+    background-color: #fff;
+}
+.main .main-width {
+    width: 1180px;
+    margin: 0 auto;
+}
+.main-shortcuts {
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+}
+.main-shortcuts .ico {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url(".../../images/hh_images/image1/house.PNG") center 100%;
+}
+.main-shortcuts i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px 0 0; 
+    background: url(".../../images/hh_images/image1/hh152.jpg");
+}
+.main-shortcuts .first {
+    margin-left: 30px;
+}
+.main-shortcuts a {
+    color: #333;
+}
+.main-shortcuts a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+.tr-block {
+    border: 1px solid #e2e2e2;
+    height: 64px;
+    width: 100%;
+}
+.block {
+    margin: 14px 0 10px 10px;
+}
+.block h2 {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+.block span {
+    height: 16px;
+    float: right;
+    line-height: 16px;
+    margin-right: 5px;
+}
+.block .icon {
+    margin-left: -20px;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background: url(".../../images/hh_images/image1/hh148.jpg");
+}
+.block .num {
+    color: #f79d4f;
+}
+.block-master {
+    margin-left: 10px;
+}
+.block-master a:hover {
+    text-decoration: underline;
+}
+.block span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* 发帖 */
+.post-message {
+    height: 54px;
+    border-bottom: 2px solid #e2e2e2;
+}
+.post-btn {
+    float: left;
+    margin-top: 14px;
+}
+.post-btn a {
+    text-align: center;
+    float: left;
+    height: 26px;
+    width: 64px;
+    border: 1px solid #4c5c79;
+    background-color: #667ca3;
+    line-height: 26px;
+    font-size: 14px;
+    color: #fff;
+}
+.page {
+    float: right;
+    margin-top: 14px;
+}
+.page a ,
+.page span{
+    float: left;
+    height: 26px;
+    width: 26px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 4px;
+}
+.page a:hover {
+    background-color: #5d687d;
+    color: #fff;
+}
+.page .first {
+    width: 62px;
+    background: url('.../../images/hh_images/image1/hh21.jpg') no-repeat 4px center;
+}
+.page .cur {
+    background-color: #5d687d;
+    color: #fff;
+}
+.page span {
+    width: 80px;
+}
+.page span input {
+    width: 24px;
+    height: 16px;border: 1px solid #ccc;
+}
+.page .next {
+    width: 70px;
+    margin: 0;
+    background: url('.../../images/hh_images/image1/hh23.jpg') no-repeat 54px center;
+}
+
+.classify {
+    height: 50px;
+}
+.classify span {
+    float: left;
+    margin: 12px 0;
+    height: 26px;
+    width: 50px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #5d687d;
+    line-height: 26px;
+    color: #fff;
+}
+.classify a {
+    float: left;
+    margin: 12px 0 0 5px;
+    padding: 0 9px;
+    height: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+.classify a i {
+    /* float: left; */
+    display: inline-block;
+    height: 14px;
+    padding: 0 3px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    background-color: #999;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+/* 瀑布流专区 ======================================*/
+.info-block {
+    border: 1px solid #e2e2e2;
+    width: 100%;
+}
+.info-block .theme {
+    height: 36px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e2e2e2;
+}
+.theme a {
+    color: #db1a84;
+    line-height: 36px;
+    margin-left: 12px;
+}
+.theme .theme-classify .first {
+    margin-right: 10px;
+}
+.theme a i {
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    margin-top: 16px;
+    margin-left: 4px;
+    background: url(".../../images/hh_images/image1/arr.gif");
+}
+.theme a:hover {
+    text-decoration: underline;
+}
+.show-way {
+    float: right;
+    color: #db1a84;
+    line-height: 36px;
+}
+.show-way input {
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+}
+.show-way span {
+    margin: 0 80px 0 5px;
+}
+/* 下一页 */
+.next-page {
+    height: 40px;
+    border: 1px solid #dcdcdc;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* 瀑布流样式 */
+.waterfall {
+    margin-top: 15px;
+    width: 100%;
+}
+.waterfall ul {
+    position: relative;
+    width: 100%;
+}
+
+.waterfall li {
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    width: 220px;
+    position: absolute;
+}
+.waterfall img {
+    width: 195px;
+    padding: 10px 10px 0 10px;
+}
+.waterfall h3 {
+    padding: 10px;
+    text-align: left;
+    line-height: 18px;
+}
+.waterfall h3:hover {
+    color: #db1a84;
+    text-decoration: underline;
+}
+.waterfall p {
+    padding: 0 10px 10px 10px;
+}
+.waterfall p span {
+    margin-right: 80px;
+}
+.waterfall p a {
+    color: #999;
+}
+
+
+
+
+

@@ -1,0 +1,75 @@
+body,
+div,
+span,
+p,
+ul,
+li,
+a,
+input,
+img,
+i,
+em,
+del,
+ins,
+strong,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+body {
+    font: 12px/100% "Î¢ÈíÑÅºÚ";
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}

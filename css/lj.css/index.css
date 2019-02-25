@@ -1,0 +1,258 @@
+body,
+div,
+span,
+p,
+a,
+input,
+img,
+ul,
+li,
+i,
+strong,
+em,
+del,
+ins,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+input {
+    border: none;
+    outline: none;
+    /* 外轮廓线,点击高亮效果清除 */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+    /* 清除标签默认的加粗效果 */
+}
+
+i {
+    /* 很多时候都是用来存放一些小结构或者小功能 */
+    font-style: normal;
+    /* 将i标签的倾斜清除 */
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    background-color: #f3f6f6;
+}
+
+/* 所谓的版心,就是把页面内容排版在屏幕的中心区域 */
+/* 版心布局的盒子有什么特点: */
+/* 1.水平居中 */
+/* 2.宽度相同 */
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 单独抽取成一个类选择器,谁需要版心居中,就把类名给谁 */
+
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+.nav{
+    height: 2000px;
+    background-color: RGB(239,239,239);
+}
+.top{
+    padding-top: 50px;
+}
+
+.top .one{
+    padding-top: 15px;
+    float: right;
+    font-size: 22px;
+    color: #000;
+}
+
+.top .one a{
+    color: RGB(202,82,82);
+}
+
+.login{
+    margin-top: 30px;
+    height: 900px;
+    background-color: RGB(255,255,255);
+    border-radius: 10px; 
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 5px solid rgb(255, 255, 255, .4); 
+}
+
+.login .title{
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 44px;
+    padding-bottom: 24px;
+   /* background-color: pink;*/
+    font-size: 16px;
+}
+
+.login .left{
+    width: 158px;
+    border: solid 1px #ccc;
+    border-right: 0;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    background: #ca5252;
+    border-color:#ca5252;
+    color: #fff;
+}
+.title .right {
+    width: 158px;
+     border: 1px solid #ccc;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    background: #fff;
+    border-color: #ca5252;
+    color: RGB(102,102,127);
+    }
+.u-label {
+    float: left;
+    width: 340px;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #333;
+}
+ .i-inpt {
+    float: left;
+    height: 44px;
+    width: 320px;
+    margin-top: 12px;
+    border: solid 1px #ddd;
+    font-size: 16px;
+    text-indent: 0.5em;
+}
+.u-input.firstelem {
+    overflow: visible;
+    z-index: 12;
+}
+.m-opr .u-input {
+    position: relative;
+    float: left;
+    height: 72px;
+    width: 100%;
+    overflow: hidden;
+}
+.u-note {
+    height: 22px;
+    line-height: 22px;
+    color: RGB(151,220,255);
+}
+.u-input {
+    position: relative;
+    float: left;
+    height: 72px;
+    width: 100%;
+    overflow: hidden;
+}
+.m-opr .u-label {
+    float: left;
+    width: 340px;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #333;
+}
+.m-opr .btn-red {
+    background: #ca5252;
+}
+.b-btn {
+    float: left;
+    border: 0;
+    width: 322px;
+    height: 46px;
+    margin-top: 12px;
+    background-color: #ca5252;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 46px;
+    cursor: pointer;
+}
+.u-label {
+    float: left;
+    width: 340px;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 45px;
+    color: #333;
+}
+.tip {
+    margin-top: 10px;
+    color: #b1b1b1;
+    float: left;
+    width: 322px;
+    font-size: 12px;
+    position: relative;
+}
+.u {
+   position: absolute;
+   top: 850px;
+   margin-left: 20px;
+}
+.u a {
+    margin: 0 auto;
+    display: inline-block;
+    width: 300px;
+    height: 125px;
+}
+.g-ft{
+    margin-top: 20px;
+}
+.m-cp p a {
+    color: #ccc;
+}
+.m-cp p {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+

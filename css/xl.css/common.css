@@ -1,0 +1,419 @@
+/* 头部部分 */
+
+.top {
+    width: 100%;
+    height: 78px;
+    background: url(../../images/XL-images/navbg.png) repeat;
+    /* background: url(/images/navbg.png) repeat; */
+    margin: 0 auto;
+}
+
+.header {
+    height: 78px;
+    position: relative;
+}
+
+.header .logo {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    text-indent: -9999px;
+    background: url(../../images/XL-images/logo.png);
+    width: 170px;
+    height: 32px;
+}
+
+.header .nav {
+    position: absolute;
+    right: 0;
+    top: 4px
+}
+
+.header .nav a {
+    float: left;
+    display: block;
+    color: #a6a6a6;
+}
+
+.header .nav a i {
+    padding: 0 20px;
+}
+
+.header .menu {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.header .menu li {
+    float: left;
+    width: 132px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+.header .menu li.first {
+    background-color: #ea0026;
+}
+
+.header .menu li a {
+    color: #f6f6f6;
+}
+
+
+/* 背景模块 */
+
+.bg {
+    width: 100%;
+    height: 443px;
+    cursor: pointer;
+}
+
+.bg .screen {
+    width: 1920px;
+    height: 442px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+}
+
+.bg .screen .bgPics {
+    width: 11520px;
+    position: absolute;
+
+}
+
+.bg .screen .bgPics li {
+    /* width: 1349px; */
+    height: 443px;
+    float: left;
+}
+
+.bg .bgPics li:first-child {
+    display: block;
+}
+
+.bg .arrow-left {
+    width: 38px;
+    height: 65px;
+    background: url(../../images/XL-images/arrow.png);
+    position: absolute;
+    top: 200px;
+    left: -50px;
+}
+
+.bg .arrow-right {
+    width: 38px;
+    height: 65px;
+    background: url(../../images/XL-images/arrow.png);
+    background-position: -37px -63px;
+    top: 200px;
+    right: -50px;
+    position: absolute;
+}
+
+.bg .lubo {
+    position: absolute;
+    left: 445px;
+    bottom: 30px;
+}
+
+.bg .lubo i {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+    background-color: #cccccc;
+}
+
+.bg .lubo .tag {
+    background-color: #e30000;
+}
+
+
+/* 新闻模块 */
+
+.bg .con {
+    height: 442px;
+    background-color: transparent;
+    position: relative;
+}
+
+.bg .con .news {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .9);
+    width: 250px;
+    height: 340px;
+    bottom: 0px;
+    right: 0px;
+    border-top: 5px solid #ea0026;
+}
+
+.bg .con .news a {
+    color: white;
+}
+
+.news .title {
+    width: 220px;
+    height: 55px;
+    margin-top: 16px;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.news .title strong {
+    float: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.news .title .gengduo {
+    float: right;
+}
+
+.news .title .gengduo a {
+    color: #dddddd;
+}
+
+.news .newsList {
+    padding: 0 15px;
+}
+
+.news .newsList li {
+    border-top: 1px dashed #dddddd;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.news .newsList a {
+    color: #a6a685;
+}
+
+.news .newsList a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+/* 主体模块 */
+
+.main .hd {
+    height: 72px;
+}
+
+.main .hd h2 {
+    font-size: 26px;
+    color: #ea0026;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.main .bd {
+    margin-bottom: 10px;
+}
+
+.main .bd ul {
+    width: 100%;
+    height: 52px;
+    display: block;
+}
+
+.main .bd li {
+    width: 25%;
+    height: 52px;
+    float: left;
+}
+
+.main .bd li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main .bd li a.hot {
+    background: url(../../images/XL-images/nav.jpg);
+}
+
+.main .bd li a.duanyou {
+    background: url(../../images/XL-images/nav.jpg);
+    background-position: -250px 0;
+}
+
+.main .bd li a.shouyou {
+    background: url(../../images/XL-images/nav.jpg);
+    background-position: -500px 0;
+}
+
+.main .bd li a.others {
+    background: url(../../images/XL-images/nav.jpg);
+    background-position: -750px 0;
+}
+
+.main .bd li a.hot:hover {
+    background-position: 0 -52px;
+}
+
+.main .bd li a.duanyou:hover {
+    background-position: -250px -52px;
+}
+
+.main .bd li a.shouyou:hover {
+    background-position: -500px -52px;
+}
+
+.main .bd li a.others:hover {
+    background-position: -750px -52px;
+}
+
+
+/* 图片模块 */
+
+.main .othersPics li img,
+.main .shouYouPics li img,
+.main .duanYouPics li img,
+.main .picsHot li img {
+    width: 248px;
+    border: 1px solid #ebebeb;
+}
+
+.main .othersPics li,
+.main .shouYouPics li,
+.main .duanYouPics li,
+.main .picsHot li {
+    float: left;
+    position: relative;
+}
+
+.main .othersPics p,
+.main .shouYouPics p,
+.main .duanYouPics p,
+.main .picsHot p {
+    position: absolute;
+    top: 110px;
+    left: 90px;
+    /* text-align: center; */
+    font-size: 16px;
+    color: #555555;
+}
+
+.main .othersPics,
+.main .shouYouPics,
+.main .duanYouPics {
+    display: none;
+}
+
+
+/* 底部模块 */
+
+.floor {
+    margin-top: 20px;
+    height: 253px;
+    background-color: #f1f1f1;
+}
+
+.floor .bottom {
+    padding-top: 28px;
+    height: 155px;
+    position: relative;
+}
+
+.floor .bottom .wenti {
+    color: #929292;
+    margin-left: 85px;
+    text-align: right;
+    width: 90px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    background: url(../../images/XL-images/wenti.png) no-repeat;
+}
+
+.floor .bottom .tab {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 200px;
+    top: 20px;
+}
+
+.floor .bottom .tab li {
+    width: 200px;
+    line-height: 32px;
+    float: left;
+}
+
+.floor .bottom .tab li a {
+    color: #929292;
+}
+
+.floor .bottom .tab li.last a {
+    color: red;
+}
+
+.floor .bottom .kefu {
+    color: #929292;
+    width: 90px;
+    height: 20px;
+    font-size: 14px;
+    background: url(../../images/XL-images/kefu.png) no-repeat;
+    position: absolute;
+    left: 625px;
+    top: 28px;
+    text-align: right;
+}
+
+.floor .bottom .kefu_detail {
+    position: absolute;
+    width: 170px;
+    height: 105px;
+    top: 23px;
+    right: 85px;
+}
+
+.floor .bottom .kefu_detail a {
+    color: #929292;
+}
+
+.floor .bottom .kefu_detail p {
+    width: 100%;
+    line-height: 22px;
+    color: #929292;
+}
+
+.floor .copy {
+    position: relative;
+    border-top: 1px dotted #929292;
+}
+
+.floor .copy .wangYi {
+    position: absolute;
+    top: 18px;
+    left: 145px;
+}
+
+.floor .copy .ncp1 {
+    position: absolute;
+    top: 20px;
+    left: 420px;
+}
+
+.floor .copy .ncp1 a {
+    color: #929292;
+}
+
+.floor .copy .ncp2 {
+    position: absolute;
+    top: 38px;
+    left: 420px;
+    color: #929292;
+}

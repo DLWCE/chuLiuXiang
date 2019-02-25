@@ -1,0 +1,264 @@
+body {
+    background-color: #b53005;
+}
+/*头部开始*/
+.active-header {
+    height: 55px;
+    width: 100%;
+    background-color: #fbfbfb;
+    position: fixed;
+    z-index: 2;
+}
+
+.a-header {
+overflow: hidden;
+}
+
+.active-logo {
+    float: left;
+    margin-top: 5px;
+}
+
+.a-header ul {
+    float: right;
+}
+
+.a-header ul li {
+    float: left;
+    line-height: 55px;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.a-header ul li a {
+    line-height: 16px;
+    color: #999;
+}
+
+.a-header ul li a:hover {
+    color: red;
+}
+/*头部结束*/
+/*海报开始*/
+.active-img {
+    height: 1035px;
+    margin: 0 auto;
+    background: url("../../images/hj-images-activity/bg.jpg") no-repeat center;
+    overflow: hidden;
+}
+
+.active-caption {
+    width: 702px;
+    height: 120px;
+    margin: 890px auto;
+    text-align: center;
+}
+
+.active-caption h1 {
+    margin-top: -85px;
+    font-size: 26px;
+    color: #b8352d;
+}
+/*海报结束*/
+/*主体开始*/
+.active-main {
+    overflow: hidden;
+}
+
+.active-main ul {
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.active-main li {
+    width: 1200px;
+    height: 140px;
+    background-color: #8e0800;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.active-main li:hover {
+    transform: scale(1.1);
+    transition: all 600ms ease-in-out;
+}
+
+.active-main .main-left {
+    float: left;
+    width: 458px;
+    height: 100%;
+}
+
+.active-main .main-left a {
+    display: block;
+    background-size: 458px 140px;
+    width: 458px;
+    height: 140px;
+    position: relative;
+}
+
+.active-main  li:nth-child(1) .main-left a {
+
+    background: url("../../images/hj-images-activity/152742eolkkgmblq66c0mm.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(2) .main-left a {
+    background: url("../../images/hj-images-activity/163553ex4taniyli4ftus0.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(3) .main-left a {
+    background: url("../../images/hj-images-activity/112331xj3fz0cx8g06c4v8.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(4) .main-left a {
+    background: url("../../images/hj-images-activity/111812jumasfce0zugrpl2.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(5) .main-left a {
+    background: url("../../images/hj-images-activity/153054pfcfhcauyh71ihv7.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(6) .main-left a {
+    background: url("../../images/hj-images-activity/154503l7zmybbrf47flq3w.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(7) .main-left a {
+    background: url("../../images/hj-images-activity/173306y12159zngg121n5n.jpg");
+    background-size: 458px 140px;
+    position: absolute;
+}
+
+.active-main  li:nth-child(8) .main-left a {
+    background: url("../../images/hj-images-activity/203526kdfhh4sqlsllsssg.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(9) .main-left a {
+    background: url("../../images/hj-images-activity/200926uw7of7mw6llpu8cg.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main  li:nth-child(10) .main-left a {
+    background: url("../../images/hj-images-activity/152321aebuxjuvjd8h282u.jpg");
+    background-size: 458px 140px;
+}
+
+.active-main .main-left i {
+    /*display: inline-block;*/
+    width: 448px;
+    height: 130px;
+    border: 1px solid #fff;
+    position: absolute;
+    margin: 4px;
+    z-index: 1;
+}
+
+.active-main .main-center {
+    float: left;
+    width: 610px;
+    height: 100%;
+}
+
+.active-main .main-center a {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffb0ab;
+    margin: 24px 0 28px 20px;
+}
+
+.active-main .main-center a:hover {
+    text-decoration: #ffb0ab underline ;
+}
+
+.active-main .main-center p {
+    display: block;
+    color: #ffa800;
+}
+
+.active-main .main-center .center-p1 {
+    margin: 0 0 26px 20px;
+}
+
+.active-main .main-center .center-p2 {
+    margin: 0 0 20px 20px;
+}
+
+
+.active-main .main-right {
+    float: right;
+    width: 132px;
+    height: 100%;
+}
+
+.active-main .main-right:hover {
+    opacity: 0.8;
+}
+
+.active-main .main-right a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.active-main .main-right a h3 {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #d34212;
+    margin: -112px 0 0 42px;
+}
+/*主体结束*/
+/*底部开始*/
+.active-footer-img {
+    position: relative;
+    height: 711px;
+    top: 83px;
+}
+
+.active-footer {
+    /*position: absolute;*/
+    height: 124px;
+    margin-top: 30px;
+    background-color: #000;
+    color: #666646;
+    text-align: center;
+    font-size: 14px;
+    line-height: 34px;
+    overflow: hidden;
+    position: relative;
+}
+
+.active-footer .a-footer {
+    height: 124px;
+}
+
+.active-footer p:nth-child(1) {
+    margin-top: 18px;
+}
+
+.active-footer p:nth-child(2) a {
+    display: inline-block;
+    color: #fff;
+    width: 162px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #610000;
+}
+/*底部结束*/
+.bgI {
+    width: 1919px;
+    height: 711px;
+    background: url("../../images/hj-images-activity/bg_bottom.jpg") no-repeat center;
+    /*position: absolute;*/
+    /*top: -940px;*/
+    margin: -711px auto;
+    z-index: -1;
+}

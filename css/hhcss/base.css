@@ -1,0 +1,79 @@
+/* 初始化设置 */
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+table,
+dl,
+dt,
+dd,
+input,
+img,
+span,
+a,
+em,
+ins,
+strong,
+del,
+i {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    background: url('../../images/hh_images/image1/hh_bg.jpg') top center no-repeat,
+    #f8f8f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+i {
+    font-style: normal;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+

@@ -1,0 +1,413 @@
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 99999;
+	background-color: rgba(255,255,255, 0.5);
+}
+.zhezhao_tan{
+	width: 500px;
+	height: 310px;
+	background-color: rgb(255,255,255);
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -200px;
+	z-index: 999999;
+	border: 1px solid rgb(0,133,202);
+}
+.zhezhao_tan_top {
+	width: 500px;
+	height: 34px;
+	float: left;
+}
+.zhezhao_tan_bottom{
+	float: left;
+}
+.zhezhao_tan_top h3{
+	padding-left: 20px;
+	line-height: 34px;
+	float: left;
+}
+.zhezhao_tan_top img{
+	float: right;
+}
+.zhezhao_tan_bottom ul{
+	padding-top: 18px;
+	padding-left: 10px;
+}
+.zhezhao_tan_bottom ul li{
+	width: 80px;
+	height: 80px;
+	display: block;
+	float: left;
+	text-align: center;
+}
+.zhezhao_tan_bottom a{
+	color: rgb(60,159,188);
+}
+.zhezhao_tan_bottom a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.zhezhao_tan_bottom ul li span{
+	width: 60px;
+	line-height: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 12px;
+	font-size: 12px;
+	display: block;
+}
+.header{
+	height: 54px;
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid rgb(216,216,216);
+}
+.header_gm{
+	position: absolute;
+	left: 0;
+	width: 179px;
+	height: 54px;
+	background-color: rgb(207,17,50);
+	text-align: center;
+	line-height: 54px;
+}
+.header_gm a{
+	font-size: 12px;
+	color: rgb(255,255,255);
+}
+.header_gm a i{
+	display: inline-block;
+    width: 25px;
+    height: 11px;
+    background: url(../../images/songvi_img/jlt.png) -90px -306px no-repeat;
+    margin-right: 8px;
+}
+.header_log{
+	width: 133px;
+	height: 44px;
+	line-height: 54px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+}
+.header_lb{
+	width: 138px;
+	height: 54px;
+	border-left: 1px solid rgb(216,216,216);
+	position: absolute;
+	right: 0;
+}
+.header_lb li{
+	display: block;
+	width: 138px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.header_lb a:hover{
+	color: rgb(250,0,0);
+	border-bottom: 1px solid rgb(250,0,0);
+}
+.banner{
+	height: 346px;
+	width: 100%;
+	background-color: rgb(62,165,194);
+	position: relative;
+	overflow: hidden;
+}
+.banner_lb{
+	width: 1680px;
+	height: 346px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner_top{
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	left: 1135px;
+}
+.banner_top a{
+	font-size: 12px;
+	font-weight: bold;
+	color: rgb(60,159,188);
+}
+.main_top_lr a{
+	color: rgb(60,159,188);
+}
+.main_top_lr a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.banner_top a:hover{
+	color: rgb(250,0,0);
+	text-decoration: underline;
+}
+.banner_bottom{
+	position: absolute;
+	bottom: -65px;
+	width: 100%;
+	height: 143px;
+}
+.banner_bottom_show{
+	position: relative;
+	width: 146px;
+	height: 73px;
+	margin: 0 auto;
+	border-top-left-radius: 73px;
+	border-top-right-radius: 73px;
+	background-color: rgb(225,250,96);
+}
+.banner_bottom_show a{
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 14px;
+	font-weight: 800;
+}
+.banner_bottom_show a span{
+	position: absolute;
+	font-size: 30px;
+	bottom: 20px;
+	left: 60px;	
+}
+.banner_bottom_hide{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(225,250,96);
+}
+.banner_bottom_hide_lb {
+	width: 890px;
+	margin: 0 auto;
+	position: relative;
+}
+#bbh_div{
+	position: relative;
+	display: block;
+	width: 888px;
+	height: 100px;
+	overflow: hidden;
+}
+.banner_bottom_hide_lb ul{
+	position: absolute;
+	width: 3000px;
+	display: inline-block;
+	line-height: 65px;
+}
+.banner_bottom_hide_lb li{
+	margin-left: 3.5px;
+	margin-right: 3.5px;
+	float: left;
+}
+.banner_bottom_hide_l{
+	top: 20px;
+	left: -20px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+.banner_bottom_hide_l a{
+	width: 10px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	background: url(../../images/songvi_img/arr01.png)no-repeat;
+}
+.banner_bottom_hide_l a:hover{
+	background: url(../../images/songvi_img/arr01.png)no-repeat 0 -60px;
+}
+.banner_bottom_hide_r{
+	top: 20px;
+	right: -40px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+.banner_bottom_hide_r a{
+	width: 10px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	background: url(../../images/songvi_img/arr01.png)no-repeat 0 -30px;
+}
+.banner_bottom_hide_r a:hover{
+	background: url(../../images/songvi_img/arr01.png)no-repeat 0 -90px;
+}
+.main{
+	width: 100%;
+}
+.main_top{
+	border-bottom: 1px solid rgb(216,216,216);
+	border-top: 1px solid rgb(216,216,216);
+	width: 100%;
+	height: 36px;
+}
+.main_top_lr{
+	width: 960px;
+	height: 36px;
+	margin: 0 auto;
+	position: relative;
+}
+.main_top_l{
+	position: absolute;
+	line-height: 36px;
+	left: 0;
+}
+.main_top_r{
+	position: absolute;
+	right: 0;
+	line-height: 36px;
+}
+.main_main{
+	width: 960px;
+	height: 763px;
+	margin: 0 auto;
+}
+.main_l{
+	float: left;
+	width: 699px;
+}
+.main_l p{
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.main_l p a{
+	cursor: pointer;
+	float: left;
+	margin-right: 3px;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: skyblue;
+}
+.ml_p a:hover{
+	background-color: rgb(225,250,96);
+}
+
+#main_l_dq{
+	background-color: rgb(225,250,96);
+}
+.main_l ul{
+	float: left;
+	width: 675px;
+	height: 631px;
+	border-bottom: 1px dashed rgb(224,224,224);
+}
+.main_l li{
+	margin-top: 35px;
+	margin-bottom: 10px;
+	width: 135px;
+	height: 111px;
+	display: block;
+	float: left;
+}
+.main_l li a{
+	display: block;
+	width: 110px;
+	height: 111px;
+	margin: 0 auto;
+	text-align: center;
+	border:1px dashed white;
+}
+.main_l li a:hover{
+	background-color: rgb(244,251,253);
+	border:1px dashed rgb(66,177,205);
+}
+.main_l li a span{
+	display: inline-block;
+	font-size: 14px;
+}
+.main_r{
+	float: left;
+	width: 260px;
+	height: 100%;
+	background-color: rgb(249,249,249);
+	border-left: 1px dashed rgb(224,224,224);
+}
+.main_r h3{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+
+} 
+.main_r ul{
+	margin-top: 10px;
+	width: 240px;
+	height: 500px;
+	padding-left: 20px;
+}
+.main_r ul li{
+	height: 25px;
+	width: 100px;
+	display: block;
+	float: left;
+}
+.main_r ul li a{
+	color: rgb(60,159,188)
+}
+.main_r ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.footer{
+	height: 155px;
+	width: 100%;
+	background-color: rgb(241,241,241);
+}
+.footer_main{
+	height: 155px;
+	width: 840px;
+	margin: 0 auto;
+}
+.footer_top{
+	width: 840px;
+	height: 48px;
+	margin-top: 10px;
+	float: left;
+}
+.ft_s1{
+	float: left;
+	width: 300px;
+	height: 48px;
+}
+.ft_s2{
+	padding-top: 5px;
+	display: block;
+	width: 410px;
+	height: 48px;
+	float: left;
+}
+.ft_s2 a{
+	line-height: 20px;
+	color: rgb(60,159,188);
+}
+.ft_s2 a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.ft_s2 i{
+	font-style: normal;
+}
+.ft_s2 i a{
+	margin-left: 20px;
+}
+.footer_bottom{
+	width: 840px;
+	height: 82px;
+	margin-top: 10px;
+	float: left;
+}
+.footer_bottom p{
+	line-height: 24px;
+}
